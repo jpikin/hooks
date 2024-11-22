@@ -1,0 +1,27 @@
+.common-btn {
+	font-size: 16px;
+	border-radius: 10px;
+	width: 250px;
+}
+
+.btn1 {
+    composes: common-btn;
+	background-color: orange;
+	border: 2px solid brown;
+	color: white;
+}
+
+.btn2 {
+    
+    composes: common-btn;
+	background-color: red;
+	border: 2px solid green;
+	color: yellow;
+}
+
+.btn3 {
+    composes: common-btn;
+	background-color: brown;
+	border: 2px solid yellowgreen;
+	color: orange;
+}
